@@ -3,7 +3,7 @@ import { HiBars3, HiOutlineXMark } from 'react-icons/hi2';
 import { useState } from 'react';
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false); // Correctly using useState
+  const [isOpen, setIsOpen] = useState(false); 
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
